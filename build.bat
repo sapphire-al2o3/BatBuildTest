@@ -1,1 +1,1 @@
-"C:\Program Files\Unity\Hub\2018.4.30f1\Editor\Unity.exe" -batchmode -projectPath "." -quit -executeMethod "Build.Run"
+"C:\Program Files\Unity\Hub\2019.4.11f1\Editor\Unity.exe" -batchmode -projectPath %~dp0 -quit -executeMethod "Build.Run"
