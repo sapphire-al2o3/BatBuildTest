@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class Test : MonoBehaviour
 {
-	public int a;
+    public int a;
 #if TEST_DEF
-	public bool aa;
+    public bool aa;
 #endif
-	public int b;
+    public int b;
 #if TEST_DEF
-	public byte bb = 100;
+    public byte bb = 100;
 #endif
-	public int c;
+    public int c;
 }
