@@ -7,9 +7,9 @@ The file '/data/app/com.Test.BatBuildTest-2/base.apk/assets/bin/Data/level0' is 
 [Position out of bounds!]
 ```
 
-`BuildPipeline.BuildPlayer` でビルドする前に `PlayerSettings.SetScriptingDefineSymbolsForGroup` で `TEST_DEF` シンボルを追加すると次のようにシリアライズされているデータがおかしくなって起動時のシーン読み込みでクラッシュしてしまう
+`BuildPipeline.BuildPlayer` でビルドする前に `PlayerSettings.SetScriptingDefineSymbolsForGroup` で `TEST_DEF` シンボルを追加すると次のコードようにシリアライズされているデータがおかしくなって起動時のシーン読み込みでクラッシュしてしまう
 
-```
+```csharp
 public class Test : MonoBehaviour
 {
     public int a;
